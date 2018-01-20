@@ -1,0 +1,38 @@
+h1{
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-size: 10em;
+  text-align: center;
+}
+
+td{
+
+  /* ALTERNATIVE USING TD INSTEAD OF TABLE */
+  height: 300px;
+  width: 150px;
+  border: 6px solid white;
+}
+
+table {
+    /*
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-spacing: 10px;
+    */
+}
+
+td#a{
+  background: #4a90e2;
+}
+td#b{
+  background: #f25f5c;
+}
+td#c{
+  background: #50514f;
+}
+td#d{
+  background: #ffe066;
+}
+td#e{
+  background: #247ba0;
+}

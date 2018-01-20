@@ -1,0 +1,27 @@
+h1, h2, h3{
+  text-align: center;
+}
+
+td{
+  border: black 4px solid;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+
+.available{
+  background: grey;
+
+}
+
+.taken{
+}
+
+
+.playerA{
+    background: red;
+}
+
+.playerB{
+    background: blue;
+}

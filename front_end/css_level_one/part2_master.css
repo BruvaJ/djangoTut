@@ -1,0 +1,25 @@
+/* Comments go in here */
+
+/* background or background-color are the same */
+body{
+  background: url(http://www.awaltzthroughdisney.com/uploads/6/2/7/6/6276678/4713670_orig.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div{
+  background: blue;
+  border-color: orange;
+  border-width: thick;
+  border-style: double;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: red;
+  color: black;
+}

@@ -1,0 +1,17 @@
+/* Comments go in here */
+
+h1{
+  color: red;
+}
+
+li{
+  color: rgb(123, 217, 12);
+}
+
+p{
+  color: #0895a8;
+}
+
+h4{
+  color: rgba(123, 217, 12, 0.3)
+}

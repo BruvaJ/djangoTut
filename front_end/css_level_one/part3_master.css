@@ -1,0 +1,31 @@
+/* Comments go in here */
+
+div{
+  color: red;
+}
+
+.firstDiv{
+  color: blue;
+}
+
+#singledout{
+  color: green;
+  text-decoration: line-through;
+}
+
+/* any ul used directly after a h3 */
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+/* any a inside a li */
+
+li a{
+  color: red;
+}
+
+/* picks a particular a inside a li with a specific link */
+li a[href="http://google.com"]{
+  color: brown;
+  border: 5px solid orange;
+}
