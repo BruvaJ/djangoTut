@@ -1,4 +1,4 @@
-"""second_project URL Configuration
+"""basicforms URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/1.11/topics/http/urls/
@@ -15,14 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from challenge_app import views
-from django.conf.urls import include
+from basicapp import views
 
 urlpatterns = [
-    # url(r'^$', views.index),
-    url(r'^$', views.form, name='form'),
+    url(r'^$', views.index, name='index'),
     url(r'^admin/', admin.site.urls),
-    url(r'^help/', include('challenge_app.urls')),
+    url(r'^formpage/', views.form_name_view, name='form_name')    
 ]
-
-# url(r'^first_app/', include('first_app.urls')),
